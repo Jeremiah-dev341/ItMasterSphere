@@ -8,7 +8,7 @@ const AboutUs = () => {
         {/* Image */}
         <div className="flex-1 mt-0 md:mt-0 lg:mt-10">
           <img
-            src="/src/assets/aboutus.jpg"
+            src="/aboutus.jpg"
             alt="IT Solutions"
             className="rounded-xl shadow-lg"
           />

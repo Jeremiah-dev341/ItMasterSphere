@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/Logo.png";
-import hero from "../assets/hero.jpg";
 
 const Hero = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +8,7 @@ const Hero = () => {
     <section className="min-h-[100vh] bg-cover bg-center flex flex-col justify-center items-center text-center text-white px-4 pb-6 relative">
       <div
         className="absolute inset-0 -z-10 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${hero})` }}
+        style={{ backgroundImage: "url(/hero.jpg)" }}
       >
         <div className="absolute bottom-0 left-0 w-full h-12 sm:h-16 md:h-20 lg:h-24 bg-gradient-to-b from-transparent to-white opacity-100"></div>
       </div>
@@ -21,7 +19,7 @@ const Hero = () => {
           {/* Logo */}
           <div className="m-0 p-0 h-10 md:h-12 lg:h-15 w-30 md:w-30 lg:w-60 flex items-center justify-center rounded">
             <Link to="/">
-              <img src={Logo} alt="Logo" className="" />
+              <img src="/Logo.png" alt="Logo" className="" />
             </Link>
           </div>
 

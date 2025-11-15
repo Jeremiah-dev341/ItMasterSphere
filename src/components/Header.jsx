@@ -1,17 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/Logo.png";
 
 const Header = () => {
   return (
     <header className="bg-blue-600 p-4">  
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section  */}
-        <div>
-          <Link to="/">
-          <img src={Logo} alt="Logo" className="h-8" />
-          </Link>
-        </div>
+          <div className="m-0 p-0 h-10 md:h-12 lg:h-15 w-30 md:w-30 lg:w-60 flex items-center justify-center rounded">
+            <Link to="/">
+              <img src="/Logo.png" alt="Logo" className="" />
+            </Link>
+          </div>
         {/* Navigation Links */}
         <nav>
           <ul className="flex space-x-4">

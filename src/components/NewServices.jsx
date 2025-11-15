@@ -5,22 +5,22 @@ const NewServices = () => {
   const initialServices = [
     {
       title: "Cloud Integration",
-      image: "/src/assets/cloud.png",
+      image: "/cloud.png",
       checked: false,
     },
     {
       title: "AI Automation",
-      image: "/src/assets/ai.jpg",
+      image: "/ai.jpg",
       checked: false,
     },
     {
       title: "Cybersecurity Setup",
-      image: "/src/assets/cybersec.webp",
+      image: "/cybersec.webp",
       checked: false,
     },
     {
       title: "Web Maintenance",
-      image: "/src/assets/webmain.png",
+      image: "/webmain.png",
       checked: false,
     },
   ];

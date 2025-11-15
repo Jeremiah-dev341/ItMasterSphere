@@ -7,7 +7,7 @@ const DiscountBanner = () => {
       {/* Left Image */}
       <div className="flex justify-center md:w-1/2 mb-10 md:mb-0">
         <img
-          src="/src/assets/discount.png"
+          src="/discount.png"
           alt="Tech Offer"
           className="w-60 md:w-80 lg:w-96 max-h-[260px] object-cover -mt-10 pt-0 lg:-mt-10"
         />

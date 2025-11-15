@@ -1,22 +1,22 @@
 import {useState} from 'react';
 import {ArrowLeft, ArrowRight} from "lucide-react";
-import { image } from 'framer-motion/client';
+
 
 const Testimonials = () => {
   const testimonials = [
     {
       name: "Steph Potter",
       role: "CEO, Tech Innovators",
-      image: "/src/assets/steph.jpg",
+      image: "/steph.jpg",
       text: "IT MasterSpace transformed our IT infrastructure, boosting efficiency and security. Their team is knowledgeable and responsive.",
-      photo: "/src/assets/julia.jpg",
+      photo: "/julia.jpg",
     },
     {
       name: "Michael Smith",
       role: "CTO, Future Solutions",
-      image: "/src/assets/michael.jpg",
+      image: "/michael.jpg",
       text: "The cloud integration services provided by IT MasterSpace have been a game-changer for our business operations.",
-      photo: "/src/assets/michael.jpg",
+      photo: "/michael.jpg",
     },
   ];
 
@@ -68,7 +68,7 @@ const Testimonials = () => {
           {/* Right Side */}
           <div className="flex justify-center md:justify-end">
             <img
-              src="/src/assets/Testimonials.jpg"
+              src="/testimonials.jpg"
               alt="testimonial visual"
               className="rounded-2xl shadow-lg w-full h-auto object-cover mx-auto md:mx-0"
             />

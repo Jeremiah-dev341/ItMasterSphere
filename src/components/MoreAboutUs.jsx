@@ -18,7 +18,7 @@ const AboutUs = () => {
         {/* Image */}
         <div className="flex-1 object-contain">
           <img
-            src="/src/assets/moreaboutus.png"
+            src="/moreaboutus.png"
             alt="IT Solutions"
             className="rounded-xl shadow-lg"
           />

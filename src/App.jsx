@@ -4,7 +4,7 @@ import "./index.css";
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import AboutUs from "./components/AboutUs.jsx";
-import Stats from "./components/stat.jsx";
+import Stats from "./components/Stats.jsx";
 import NewServices from "./components/NewServices.jsx";
 import MoreAboutUs from "./components/MoreAboutUs.jsx";
 import AllServices from "./components/AllServices.jsx"; 
